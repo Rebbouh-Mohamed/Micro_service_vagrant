@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/microservice":{"guestpath":"/home/vagrant/microservice","hostpath":"/home/rebbouh/micro_services/microservice3","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/rebbouh/micro_services","disabled":false,"__vagrantfile":true}}}

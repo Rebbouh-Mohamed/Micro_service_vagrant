@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateway Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aggregated Data</h1>
+    <h2>Users</h2>
+    <ul>
+        {% for user in users %}
+        <li>{{ user.name }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Orders</h2>
+    <ul>
+        {% for order in orders %}
+        <li>{{ order.item }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
